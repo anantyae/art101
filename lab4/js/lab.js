@@ -1,21 +1,14 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Rock Paper Scissors
+// An implementaion of the game
+    // Ask player if they want to play a game of rock paper scissors
+    // Start the game loop
+    // Prompt them for imput of rock, paper, or scissors
+        // 0=rock, 1=paper, 2=scissors
+    // Comparre user imput to random generated
+    // Text the win or draw conditions
+    // Ask player if they want to play again 
+        // If yes= restart game loop, if no= end game loop
+// Anantya Engineer
+// April 2023
 
-// Constants
-
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+    

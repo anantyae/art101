@@ -5,5 +5,38 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #DDD8C4;
+    background-color: #2cd4ce;
+    color: white;
   }
+
+h1{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #2cd4ce;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+
+
+}
+h3 {
+  font-style: oblique;
+  }
+  
+
+body{
+  background-color: black;
+}
+
+#thunderbird{
+  border-color: black;
+  border: solid;
+}
+
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #1a009a;
+  background-color: #1a009a;
+}
+
