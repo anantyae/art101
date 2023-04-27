@@ -3,13 +3,13 @@
 // Date: April 25, 2023
 
 //Variables
-make = "Ford";
-model = "Thunderbird";
-year = "1960";
-color = "Rusty Red";
+var make = "Ford";
+var model = "Thunderbird";
+var year = "1960";
+var color = "Rusty Red";
 
 //calculate
-age = 2023 - year;
+var age = 2023 - year;
 
 //output
 document.writeln("Make: " + make + "<br>");
