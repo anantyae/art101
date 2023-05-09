@@ -27,5 +27,3 @@ var reults = array.map(function(x){
 
 console.log("Multiply by 2:",results);
 
-var outputEl = document.getElementById("output"); 
-outputEl.innerHTML = mapResults;
