@@ -18,17 +18,14 @@
   }
   h3 {
   font-style: oblique;
+  color: black;
   }
   
   
   body{
   background-color: black;
   }
-  
-  #thunderbird{
-  border-color: black;
-  border: solid;
-  }
+
   
   #content {
   margin: 10px;
