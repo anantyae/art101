@@ -1,0 +1,49 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #b3fffa;
+    color: rgb(0, 0, 0);
+    font-family: 'Londrina Sketch', cursive;
+  }
+  
+  h1{
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #5a8fe0;
+  font-family: 'Londrina Sketch', cursive;
+  color: rgb(0, 0, 0);
+  display: block;
+  
+  
+  }
+  h3 {
+  font-style: oblique;
+  color: #010909;
+  }
+  
+  
+  body{
+  background-color: rgb(36, 50, 126);
+  }
+  
+  
+  
+  #content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #000000;
+  background-color: #6844d7;
+  }
+  
+  #div {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #080101;
+  
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  }
+
+  #answered-question{
+    width:600px;
+  }
