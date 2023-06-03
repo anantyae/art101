@@ -18,7 +18,7 @@
           console.log("success");
           console.log(data);
           var comicObj = data;
-          var imgURL = data.image;
+          var imgURL = data.img;
           $("#output").html("<h2>" + comicObj.title);
           $("#output").append("img src=" + comicObj.img + "alt=" + comicObj.alt + "title='Image'>");
           //$("#output").append("<img src=" + imgURL + ">");
