@@ -3,7 +3,6 @@
 // Date: 6/2/2023
 
 
- 
     $.ajax({
        //where- string
       url: "https://xkcd.com/info.0.json",
@@ -12,15 +11,15 @@
         //what
       data: {},
       dataType: "json",
-    })
-
-      
+      success: function(data){
       // If the request succeeds
-  .done(function(data) {
-    // console.log(data);
-    var imageUrl = data.img;
-   var imgURL = data.img;
-$("#output").html("<h2>" + comicObj.title);
-$("#output").append("img src=" + comicObj.img + "alt=" + comicObj.alt + "title='Image'>");
+      console.log("success");
+      console.log(data);
+      var comicObj = data;
 
- })
+
+
+$("#output").html("<h2>" + comicObj.title + "<h2>" );
+$("#output").append("img src=" + comicObj.img + "alt=" + comicObj.alt + "title='Image'>");
+  }
+})
