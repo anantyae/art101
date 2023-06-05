@@ -5,7 +5,8 @@
 $.ajax({
     //url
     url: "https://xkcd.com/info.0.json",
-    //want all of the data
+    //want all of the data for most recent comic on api 
+    //whatver image the api has updated, it will change into it
     data: {},
     type: "GET",
     dataType: "json",
