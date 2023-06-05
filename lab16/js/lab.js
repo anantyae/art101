@@ -16,6 +16,7 @@
       console.log("success");
       console.log(data);
       var comicObj = data;
+      //
 
 
 
